@@ -1,6 +1,6 @@
 # mini-project
 
-#include<stdio.h> // include stdio.h
+#include<stdio.h>
 unsigned long int factorial(unsigned long int);
 
 int main() 
