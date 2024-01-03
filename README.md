@@ -1,15 +1,15 @@
 # mini-project
 
-#include<stdio.h>
-unsigned long int factorial(unsigned long int);
 
-int main() 
-{
+
+   
+    #include<stdio.h>
+    unsigned long int factorial(unsigned long int);
+    int main() 
+    {
     int n;
-
-    printf("Enter number of rows: \n");
     scanf("%d", &n);
-
+     printf("Enter number of rows: \n");
     printf("\n");
 
     // loop for number of rows
@@ -32,10 +32,9 @@ int main()
     }    
 
     return 0;
-}
-
-unsigned long int factorial(unsigned long int n)
-{
+    }
+    unsigned long int factorial(unsigned long int n)
+    {
     unsigned long int f = 1;
 
     while(n > 0)
@@ -45,4 +44,5 @@ unsigned long int factorial(unsigned long int n)
     }
 
     return f;   
-}
+    }
+
